@@ -1,11 +1,17 @@
-.logo{
-    width: 125px;
+.logo {
+  width: 125px;
 }
-.social-icon a img{
-    width: 20px;
-    margin: 20px 25px 5px 0;
+.social-icon a img {
+  width: 20px;
+  margin: 20px 25px 5px 0;
 }
-.link-text a{
-    color: #626363;
-    font-size: 17px;
+.link-text a {
+  color: #626363;
+  font-size: 17px;
+}
+.footer-bg {
+  background-image: url("../../../images/3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }

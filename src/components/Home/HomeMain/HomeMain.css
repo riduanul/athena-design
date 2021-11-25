@@ -1,14 +1,13 @@
-.HomeMain{
-    margin-top: 100px;
+.HomeMain {
+  margin-top: 100px;
 }
-.mainDescription{
-    padding-right: 200px;
+.mainDescription {
+  padding-right: 200px;
 }
-.mainTitle{
-    font-size: 50px;
- 
+.mainTitle {
+  font-size: 50px;
+  font-weight: 900;
 }
-.HeaderImg{
-    width: 100%;
+.HeaderImg {
+  width: 100%;
 }
-

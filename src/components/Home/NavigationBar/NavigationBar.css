@@ -1,16 +1,20 @@
 .logo {
-    width: 120px;
+  width: 120px;
 }
-.link{
-    margin-right: 20px;
-    line-height: 48px;
+.link {
+  margin-right: 20px;
+  line-height: 48px;
 }
 .contactBtn {
-    border: none;
-    padding: 10px 25px;
-    background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-   
+  border: none;
+  padding: 10px 25px;
+  background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
+.link:hover {
+  background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}

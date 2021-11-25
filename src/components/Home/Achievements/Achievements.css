@@ -1,31 +1,36 @@
-.gap{
-    color: gray;
-    font-weight: 700;
-    border: 1px solid rgb(241, 234, 234);
-    box-shadow: 5px 0px 20px rgb(184, 238, 211);
-    
-    background-color: white;
-    padding: 30px;
-    margin: 10px;
-    /* margin-right: 40px; */
-    column-gap: 20px;
-    
+.gap {
+  color: gray;
+  font-weight: 700;
+  border: 1px solid rgb(241, 234, 234);
+  box-shadow: 5px 0px 20px rgb(184, 238, 211);
+
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  /* margin-right: 40px; */
+  column-gap: 10px;
 }
-.ta{
-    text-align: left;
+.ta {
+  text-align: left;
 }
 
-.text-margin{
-    margin-top: 100px;
+.text-margin {
+  margin-top: 100px;
 }
-.radius1{
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+.radius1 {
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
 }
-.radius2{
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 70px;
+.radius2 {
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
 }
-.first{
-    background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
+.active {
+  background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
+  cursor: pointer;
+}
+
+.first:hover {
+  background: linear-gradient(0deg, #1fdeb0ff, #03a4f4ff);
+  cursor: pointer;
 }

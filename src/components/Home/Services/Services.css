@@ -1,18 +1,26 @@
- .service h1, h4{
-    font-weight: 750;
+/* .service h1,
+h4 {
+  font-weight: 900;
+} */
+
+.service {
+  padding: 20px;
+}
+.service img {
+  width: 80px;
+}
+.service:hover {
+  border: 1px solid rgb(241, 234, 234);
+  box-shadow: 5px 0px 30px rgb(157, 238, 197);
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: white;
+  cursor: pointer;
 }
 
-.service{
-    padding: 20px;
-}
-.service img{
-    width: 80px;
-}
-.service:hover{
-    border: 1px solid rgb(241, 234, 234);
-    box-shadow: 5px 0px 30px rgb(157, 238, 197);
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    background-color: white;
-    cursor: pointer;
+.services-bg {
+  background-image: url("../../../images/2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
